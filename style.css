@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5ef;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Main content */
+main {
+    width: 90%;
+    margin: 20px auto;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Headings */
+h2 {
+    color: brown;
+    margin-bottom: 15px;
+}
+
+h3 {
+    color: darkred;
+    margin-bottom: 10px;
+}
+
+/* Food items */
+.food-item {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+/* First image - centered */
+.main-image {
+    text-align: center;
+    margin: 20px;
+}
+
+.main-image img {
+    width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+/* Second and third images */
+.food-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.food-grid .food-item {
+    width: 50%;
+}
+
+.food-image img {
+    width: 100%;
+    height: auto;
+}
+
+/* Footer */
+footer {
+    background-color: brown;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Mobile screens */
+@media (max-width: 600px) {
+    .food-grid {
+        flex-direction: column;
+    }
+
+    .food-grid .food-item {
+        width: 100%;
+    }
+}
