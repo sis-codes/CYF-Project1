@@ -1,4 +1,4 @@
-## About the Project
+# About the Project
  - Ethiopian Cultural Foods is a simple website built to showcase Ethiopia's traditional dishes such as Injera, Doro Wat, and     Shiro Wat, along with authentic ingredients, spices, and food traditions.
 
 ##Website Features
